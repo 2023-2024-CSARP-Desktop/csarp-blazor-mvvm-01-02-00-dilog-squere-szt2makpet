@@ -3,4 +3,4 @@
 # 00-00-00-empty-project
 Empty project
 
-![image](https://media.discordapp.net/attachments/910650108293562429/1160689062546509945/image.png?ex=653592ed&is=65231ded&hm=e6da655dc99680d4c26dbd09131e15d1d0b7b7d8db8de2e887c3a35fc419c292&=&width=781&height=405)
+![image](https://github.com/2023-2024-CSARP-Desktop/csarp-blazor-mvvm-01-02-00-dilog-squere-szt2makpet/blob/main/K%C3%A9perny%C5%91k%C3%A9p%202023-10-08%20185732.png)
