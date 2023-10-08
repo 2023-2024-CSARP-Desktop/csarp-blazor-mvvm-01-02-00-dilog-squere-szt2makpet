@@ -1,0 +1,19 @@
+﻿@page "/rectangle"
+
+@using SquareProject.Client.Components
+@using SquareProject.Client.ViewModels;
+@using global::Pages.BaseClass;
+
+@inherits BasePage
+
+<h3>Téglalap terület és került számítás</h3>
+
+<CascadingValue Value="@ViewModel" Name="ViewModel">
+    <EditSquareData />
+    <ShowSquareResult />
+</CascadingValue>
+
+@code {
+    [Inject]
+    public ISquareViewModel? ViewModel { get; set; }
+}

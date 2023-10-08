@@ -1,0 +1,21 @@
+﻿@using SquareProject.Client.ViewModels;
+
+@if (ViewModel is not null)
+{
+    <EditForm Model="@ViewModel">
+        <div class="col-4">
+            <div class="form-group">
+                <label for="Oldal">A oldal</label>
+                <InputText class="form-control" id="aoldal" @bind-Value="@ViewModel.Side" />
+                <label for="Oldal">B oldal</label>
+                <InputText class="form-control" id="boldal" @bind-Value="@ViewModel.Side" />
+            </div>
+            <button class="mt-2" type="submit" disabled="@ViewModel.IsBusy">Terület és kerület számitása</button>
+        </div>
+    </EditForm>
+}
+
+@code {
+    [CascadingParameter(Name = "ViewModel")]
+    private ISquareViewModel? ViewModel { get; set; }
+}
