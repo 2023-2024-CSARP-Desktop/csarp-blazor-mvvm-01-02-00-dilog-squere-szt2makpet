@@ -3,4 +3,4 @@
 # 00-00-00-empty-project
 Empty project
 
-![image](https://github.com/2023-2024-CSARP-Desktop/csarp-blazor-mvvm-01-02-00-dilog-squere-szt2makpet/blob/main/K%C3%A9perny%C5%91k%C3%A9p%202023-10-08%20185732.png)
+![image](https://github.com/2023-2024-CSARP-Desktop/csarp-blazor-mvvm-01-02-00-dilog-squere-szt2makpet/blob/main/image.png)
